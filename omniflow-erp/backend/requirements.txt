@@ -1,0 +1,10 @@
+fastapi==0.110.0
+uvicorn[standard]==0.27.1
+sqlalchemy[asyncio]==2.0.27
+asyncpg==0.29.0
+alembic==1.13.1
+pydantic==2.6.1
+pydantic-settings==2.1.0
+casbin==1.35.0
+casbin-sqlalchemy-adapter==1.0.0 # Optional: if storing policies in DB later
+python-jose[cryptography]==3.3.0

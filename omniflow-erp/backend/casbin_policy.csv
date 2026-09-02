@@ -1,0 +1,7 @@
+p, tenant_admin, *, *
+p, manager, purchase_order, approve
+p, manager, sales_order, apply_discount
+p, staff, item, read
+p, staff, item, write
+p, staff, sales_order, write
+p, external, party, read
